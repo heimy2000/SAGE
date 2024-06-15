@@ -5,11 +5,6 @@
 
 ## 📌Introducing SAGE 🎉
 
-Welcome to SAGE! The main contributions of our work are as follows:
-- We propose the SAGE framework which represents an innovative approach that allows for dynamic and real-time memory updates within multi-agent systems.
-- We design a novel role-playing mechanism for precise task allocation and enhanced agent communication, significantly boosting overall performance and cooperation.
-- We evaluated the fine-tuned TinyAgent models across multiple agent tasks, finding that in certain scenarios, their performance rivals that of advanced LLMs like GPT-4 and agentlm ~\cite{zeng2023agenttuning}, demonstrating the potential efficiency and capabilities of compact models.
-
 
 
 If you're looking for an older version of a similar project, you can find it here.
@@ -50,16 +45,6 @@ as well as 3 recompiled from published datasets:
 
 We provide two dataset splits: Development (Dev) and Test, each designed to facilitate comprehensive evaluations with trajectory data. The multi-turn interaction design challenges LLMs to generate responses across approximately 4,000 instances for the Dev split and 13,000 instances for the Test split. This setup, enriched with trajectory data, is meticulously crafted to assess the LLMs' ability to navigate through tasks by leveraging past interactions and decisions, thereby offering a more nuanced insight into their capability to understand, predict, and act in dynamic scenarios.
 
-
-## Leaderboard
-
-Here is the scores on test set (standard) results of SAGE.
-
-
-TinyAgent demonstrates outstanding performance, comparable to that of GPT-3.5. 
-
-
-Comparative study of Llama-2-7b and TinyAgent-7b in DataBase cases. (1) In DataBase tasks with a reflection mechanism, Llama-2-7b still made errors after reflection, while TinyAgent-7b adjusted its operations after reflecting on its first failed attempt. (2) Without a reflection mechanism, TinyAgent-7b repeated the same operation and ultimately failed to complete the task.
 
 ## Quick Start
 
